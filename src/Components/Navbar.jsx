@@ -1,9 +1,10 @@
 import React from 'react'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <h1>folif</h1>
+    <div className='navbar'>
+      
     </div>
   )
 }
