@@ -1,17 +1,17 @@
 import React from 'react'
 import './Item.css'
 
-const Item = (props) => {
+const Item = (Props) => {
   return (
     <div className='item'>
-      <img src={props.image} alt="" />
-      <p>{props.name}</p>
+      <img src={Props.image} alt="" />
+      <p>{Props.name}</p>
       <div className="item-prices">
         <div className="item-price-new">
-            {props.new_price}
+            {Props.new_price}
         </div>
         <div className="item-price-old">
-            {props.old_price}
+            {Props.old_price}
         </div>
       </div>
     </div>
