@@ -4,7 +4,10 @@ import "./App.css";
 
 import Navbar from "./Components/Navbar";
 import ShopCategory from "./Pages/ShopCategory";
+import Shop from "./Pages/Shop";
+import Cart from "./Pages/Cart";
 import Product from "./Pages/Product";
+import Login from "./Pages/Login";
 
 function App() {
   return (
